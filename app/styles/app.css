@@ -1,0 +1,125 @@
+body {
+  background: #777;
+  margin: 0px;
+}
+
+#background {
+  height: 400px;
+  width: 280px;
+  border-radius: 5px;
+  background: rgb(66, 198, 216);
+  margin: 50px auto;
+  transition: all 2s ease;
+}
+
+button {
+  border: 0;
+  color: #fff;
+}
+
+#result {
+  display: block;
+  font-family: sans-serif;
+  width: 83%;
+  height: 40px;
+  margin: 15px;
+  text-align: right;
+  border: 0;
+  border-radius: 5px;
+  background: #3b3535;
+  color: #fff;
+  padding-top: 20px;
+  font-size: 20px;
+  outline: none;
+  overflow: hidden;
+  letter-spacing: 4px;
+  position: relative;
+  top: 20px;
+  left: 8px;
+}
+
+#number {
+  display: block;
+  font-family: sans-serif;
+  width: 50%;
+  height: 40px;
+  margin: 15px;
+  text-align: right;
+  border: 0;
+  border-radius: 5px;
+  background: #3b3535;
+  color: #fff;
+  padding-top: 20px;
+  font-size: 20px;
+  outline: none;
+  overflow: hidden;
+  letter-spacing: 4px;
+  position: right;
+  top: 20px;
+  left: 8px;
+  display:inline-block;
+}
+
+#query {
+  display: block;
+  font-family: sans-serif;
+  width: 83%;
+  height: 40px;
+  margin: 15px;
+  text-align: right;
+  border: 0;
+  border-radius: 5px;
+  background: #3b3535;
+  color: #fff;
+  padding-top: 20px;
+  font-size: 20px;
+  outline: none;
+  overflow: hidden;
+  letter-spacing: 4px;
+  position: right;
+  top: 20px;
+  left: 8px;
+  display:inline-block
+}
+
+#result:hover {
+  cursor: text;
+}
+
+.first-row {
+  width: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.row {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.align {
+  margin-left: 6px !important;
+}
+
+.btn-style {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+
+.opera-bg {
+  background: #333;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.opera-bg:active {
+  background: #333;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+}
