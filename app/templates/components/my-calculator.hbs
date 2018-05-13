@@ -1,12 +1,16 @@
 <div id="background">
-  <div id="result"></div>
+  <div id="result">{{sum}}</div>
   <div id="main">
     <div class="first-row">
-      <button class="btn-style opera-bg value align operator" {{action "input" "+" on="mouseUp"}}>+</button>
+      <button class="btn-style opera-bg value align operator" {{action "input" number}}>+</button>
       {{input value=number type="number" id="number" placeholder="Type here"}}
     </div>
     <div class="row">
-      <div id="query"></div>
+      <div id="query">
+          {{#each results as |number|}}
+            {{number}},
+          {{/each}}
+      </div>
     </div>
   </div>
 </div>
